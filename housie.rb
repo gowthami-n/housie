@@ -3,7 +3,7 @@ def housie()
     a=1
     b=9
     c=[]
-    k=[1,2,3].repeated_combination(9).to_a
+    k=[1,2,3].repeated_permutation(9).to_a
     s=Hash.new(0)
     k.each do |i|
       s[i]=i.sum if i.sum==15
